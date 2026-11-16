@@ -1,0 +1,61 @@
+
+# ==========================================
+# SPRING BOOT / JAVA
+# ==========================================
+course-registration/target/
+*.class
+*.jar
+*.war
+*.log
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# REACT / VITE
+# ==========================================
+course-registration-ui/node_modules/
+course-registration-ui/dist/
+course-registration-ui/coverage/
+*.tsbuildinfo
+
+# ==========================================
+# IDE
+# ==========================================
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# ==========================================
+# ENVIRONMENT / SECRETS
+# ==========================================
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+*.pem
+*.key
+
+# ==========================================
+# OPERATING SYSTEM
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# TEMPORARY FILES
+# ==========================================
+*.tmp
+*.bak
+*.swp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

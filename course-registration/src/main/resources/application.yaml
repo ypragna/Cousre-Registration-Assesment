@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: registration
+
+course:
+  id: COURSE-101
+  capacity: 3
